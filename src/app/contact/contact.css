@@ -1,0 +1,42 @@
+.contact-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: purple;
+    gap: 20px ;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-icon {
+  font-size: 2.5rem;
+  color: #333;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.contact-icon:hover {
+  color: rgb(231, 133, 231);
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .icon-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-icon {
+    font-size: 2.8rem;
+  }
+
+  .contact-section h2 {
+    font-size: 1.6rem;
+  }
+}

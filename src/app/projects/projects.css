@@ -1,0 +1,103 @@
+.projects-container {
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: purple;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  color: purple;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-left: 4px solid purple;
+  padding-left: 10px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  border-left: 4px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.project-card h4 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.project-role {
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #dddddd;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.btn-view {
+  display: inline-block;
+  background-color: purple;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: purple;
+}
+
+.more-projects-note {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 30px;
+  color: #cccccc;
+}
+
+.more-projects-note a {
+  color: purple;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+
+  .section-heading {
+    font-size: 1.4rem;
+  }
+
+  .project-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+  }
+
+  .btn-view {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .projects-container {
+    padding: 30px 10px;
+  }
+}

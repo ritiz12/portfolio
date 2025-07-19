@@ -1,0 +1,93 @@
+.about-container {
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  text-align: justify;
+  color: #e0e0e0;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: purple;
+}
+
+.timeline {
+  border-left: 4px solid purple;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #bbbbbb;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.timeline-content p {
+  margin: 5px 0 10px 0;
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+.resume-download {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.resume-btn {
+  background-color: purple;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  .about-container {
+    padding: 20px 10px;
+  }
+
+  .timeline {
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+
+  .resume-btn {
+    width: 90%;
+  }
+}
