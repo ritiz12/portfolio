@@ -10,3 +10,16 @@
   from = "/*"
   to = "/index.html"
   status = 200
+[build]
+  base = "app"  # tells Netlify to treat `app` as the root
+  command = "npm install -g @angular/cli && npm install && ng build --configuration production"
+  publish = "dist/portfolio-website"
+
+[build.environment]
+  NODE_VERSION = "20.19.0"
+  NPM_VERSION = "9"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
