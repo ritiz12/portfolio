@@ -1,5 +1,4 @@
 [build]
-  base = "portfolio-website"
   command = "npm install -g @angular/cli && npm install && ng build --configuration production"
   publish = "portfolio-website/dist/portfolio-website"
 
