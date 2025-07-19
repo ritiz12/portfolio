@@ -1,10 +1,11 @@
 [build]
+  base = "portfolio-website"
   command = "npm install -g @angular/cli && npm install && ng build --configuration production"
-  publish = "dist/portfolio-website"
+  publish = "portfolio-website/dist/portfolio-website"
 
 [build.environment]
-  NODE_VERSION = "20.19.0"
-  NPM_VERSION = "10"
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
 
 [[redirects]]
   from = "/*"
